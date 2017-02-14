@@ -21,6 +21,11 @@ body {
   font-weight: 500;
 }
 
+.axes-label {
+  font-family: 'xingothic-tc';
+  font-weight: 100;
+}
+
 p.step-button {
   border-bottom: 2px solid #bdbdbd;
   color:#bdbdbd;
@@ -308,6 +313,7 @@ d3.csv("pricecomparsion-zhTW.csv", function(error, cities) {
   axes.style("opacity", .3);
 
   axes.append("text")
+      .attr("class", "axes-label")
       .attr("text-anchor", "middle")
       .attr("y", -9)
       .style("pointer-events", "auto")
