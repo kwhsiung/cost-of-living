@@ -143,7 +143,7 @@ svg {
 <head>
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kwhsiung.github.io/cost-of-living/">
-<meta property="og:title" content="台北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費" />
+<meta property="og:title" content="臺北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費" />
 <meta property="og:site_name" content="kwhsiung.github.io" />
 <meta property="og:image" content="https://gist.githubusercontent.com/kwhsiung/be986f5074e8d7f4205d6278c9a26416/raw/298b80866e66b767d4eef31cc50d74971693b11f/preview.png" />
 <meta property="og:image:width" content="1200" />
@@ -162,7 +162,7 @@ svg {
 </head>
 <script type="text/javascript" src="jf-production-ver.js"></script>
 <body>
-<title>台北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費</title>
+<title>臺北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費</title>
 <div class="description">
   <h1 class="description-text"></h1>
 </div>
@@ -240,7 +240,7 @@ svg.append("text")
 .attr("class", "introduction")
 .attr("x", w/2)
 .attr("y", h/2)
-.text("台北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費")
+.text("臺北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費")
 .style("font-size", "35px")
 .attr("text-anchor", "middle");
 
@@ -458,19 +458,19 @@ d3.csv("pricecomparsion-zhTW.csv", function(error, cities) {
         cities_of_step = null;
         break;
       case "step1":
-        description_text = "台北物價與他國 70 座城市比較";
+        description_text = "臺北物價與他國 70 座城市比較";
         cities_of_step = taipei;
         break;
       case "step2":
-        description_text = "台北物價與東亞城市物價比較";
+        description_text = "臺北物價與東亞城市物價比較";
         cities_of_step = east_asia_and_taipei;
         break;
       case "step3":
-        description_text = "台北物價與歐美城市物價比較";
+        description_text = "臺北物價與歐美城市物價比較";
         cities_of_step = euro_and_taipei;
         break;
       case "step4":
-        description_text = "台北物價與美國城市物價比較";
+        description_text = "臺北物價與美國城市物價比較";
         cities_of_step = usa_and_taipei;
         break;
       case "explore":
@@ -687,7 +687,7 @@ d3.csv("pricecomparsion-zhTW.csv", function(error, cities) {
       .attr("class", "introduction")
       .attr("x", w/2)
       .attr("y", h/2)
-      .text("台北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費")
+      .text("臺北物價高不高？利用圖表一起來探索 2015 年全球 71 座城市生活花費")
       .style("font-size", "35px")
       .attr("text-anchor", "middle")
       .style("opacity", 0)
